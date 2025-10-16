@@ -37,3 +37,4 @@ flag = flag2 ^ shared_int
 flag = long_to_bytes(flag)
 
 print(flag.decode())
+
