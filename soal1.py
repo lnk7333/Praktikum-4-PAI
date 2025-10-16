@@ -38,4 +38,4 @@ k5 = (k5 * (len(f5) // len(k5)+1))[:len(f5)]
 flag = bxor(f5, k5)
 
 #karena flag berupa bytes, maka untuk mengubahnya menjadi string kita perlu .decode()
-print(flag.decode)
+print(flag.decode())
